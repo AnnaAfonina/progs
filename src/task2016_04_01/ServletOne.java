@@ -12,5 +12,6 @@ public class ServletOne extends HttpServlet {
         BufferedWriter writer = new BufferedWriter(response.getWriter());
         i++;
         writer.write(i);
-        writer.flush();}
+        writer.flush();
+    }
 }
